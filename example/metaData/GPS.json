@@ -1,0 +1,10 @@
+{
+    "metaData": {
+        "pageLayout": "GPS",
+        "pageName": "GPS",
+        "dataPaths": {
+            "OneToOne": "example/jsonData/GPS/GPS.json"
+            
+        }
+    }
+}

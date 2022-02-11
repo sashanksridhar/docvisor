@@ -1,0 +1,96 @@
+[
+    {
+        "id": "d382227fdaf0472d813c345e8bddb1dd",
+        "imagePath": "E:/streetLights/Data/29thDecember/day/merges/0_x.jpg",
+      "imagePath2": "E:/streetLights/Data/29thDecember/day/merges/0_y.jpg",
+        "outputs": {
+            "GPS": {
+               "metrics":{
+                "latitude": 17.4399,
+                "longitude": 78.362106,
+                 "speed": 11.056
+               }
+            }
+        }
+    },
+    {
+        "id": "d382227fdaf0472d813c345e8bddb1d3",
+        "imagePath": "E:/streetLights/Data/29thDecember/day/merges/19_x.jpg",
+      "imagePath2": "E:/streetLights/Data/29thDecember/day/merges/19_y.jpg",
+        "outputs": {
+            "GPS": {
+               "metrics":{
+                "latitude": 17.440466,
+                "longitude": 78.361209,
+                 "speed": 9.62
+               }
+            }
+        }
+    },
+    {
+        "id": "d382227fdaf0472d813w345e8bddb1da",
+        "imagePath": "E:/streetLights/Data/29thDecember/day/merges/85_x.jpg",
+      "imagePath2": "E:/streetLights/Data/29thDecember/day/merges/85_y.jpg",
+        "groundTruth": "",
+        "outputs": {
+            "GPS": {
+               "prediction":"",
+               "metrics":{
+                "latitude": 17.441161,
+                "longitude": 78.36003,
+                 "speed": 3.509666667
+               }
+            }
+        }
+    },
+
+  {
+        "id": "d382227fdaf0472d813w345e8bddb2da",
+        "imagePath": "E:/streetLights/Data/29thDecember/day/merges/264_x.jpg",
+      "imagePath2": "E:/streetLights/Data/29thDecember/day/merges/264_y.jpg",
+        "groundTruth": "",
+        "outputs": {
+            "GPS": {
+               "prediction":"",
+               "metrics":{
+                "latitude": 17.446609,
+                "longitude": 78.351029,
+                 "speed":8.979
+               }
+            }
+        }
+    },
+  {
+        "id": "d382227fdaf0472d813w345e8bddb3da",
+        "imagePath": "E:/streetLights/Data/29thDecember/day/merges/224_x.jpg",
+      "imagePath2": "E:/streetLights/Data/29thDecember/day/merges/224_y.jpg",
+        "groundTruth": "",
+        "outputs": {
+            "GPS": {
+               "prediction":"",
+               "metrics":{
+                "latitude": 17.445619,
+                "longitude": 78.352218,
+                 "speed": 6.672
+
+               }
+            }
+        }
+    },
+  {
+        "id": "d382227fdaf0472d813w345e8bddeb3da",
+        "imagePath": "E:/streetLights/Data/29thDecember/day/merges/218_x.jpg",
+      "imagePath2": "E:/streetLights/Data/29thDecember/day/merges/218_combine.jpg",
+        "groundTruth": "",
+        "outputs": {
+            "GPS": {
+               "prediction":"",
+               "metrics":{
+                "latitude": 17.445619,
+                "longitude": 78.352218,
+                 "speed": 6.236
+               }
+            }
+        }
+    }
+]

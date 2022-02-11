@@ -581,7 +581,7 @@ def app(metaData=None):
                     ref_array = ocr.models
 
                 target_array = ocr.models
-                
+
 
                 ref = reference.selectbox('Choose Reference',ref_array)
                 target = comparision.selectbox('Choose Comparision Target',target_array)

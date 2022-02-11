@@ -8,6 +8,7 @@ import SessionState
 from layouts.boxSupervision import boxSupervision
 from layouts.fullyAutomatic import fullyAutomatic
 from layouts.OCR.src import OCR
+from layouts.GPS import GPS
 
 
 
@@ -64,7 +65,9 @@ pageLayoutFileMap = {
 
     "Box-supervised Region Parsing":boxSupervision,
     "Fully Automatic Region Parsing":fullyAutomatic,
-    "OCR":OCR
+    "OCR":OCR,
+
+    "GPS": GPS
 
 }
 

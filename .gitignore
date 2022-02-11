@@ -5,6 +5,8 @@ tool/metaData*
 tool/localData/*
 tool/__pycache__/*
 *_2021
+*_2022
+.idea
 *.pyc
 tool/jsonData*
 tool/handwritten*

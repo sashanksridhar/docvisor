@@ -8,7 +8,8 @@ def displayMetrics(ocr,index,model):
     # st.text(model)
     for  metric in ocr.metric_details[model]:
         if metric !="None":
-            mstring = f'**{metric} :** {ocr.JSONdata[index]["outputs"][model]["metrics"][metric]:.2f}'
+            mstring = f'**{metric} :** {ocr.JSONdata[index]["outputs"][model]["metrics"][metric]:.6f}'
+
             metricStrings.append(mstring)
 
     st.markdown(' , '.join(metricStrings))
