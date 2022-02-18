@@ -3,7 +3,9 @@ import SessionState
 
 from layouts.GPS.gpsHelper import gpsHelper
 import numpy as np
-
+import json
+import csv
+from io import StringIO
 import os
 from config import defaultThreshold
 from shutil import copyfile
@@ -50,7 +52,7 @@ def app(metaData=None):
     # if user wants to keep the app dynamic to changes in json file
     # comment out the @st.cache call above the initGPSHelper() function
 
-    @st.cache(allow_output_mutation=True, suppress_st_warning=True)
+    # @st.cache(allow_output_mutation=True, suppress_st_warning=True)
     def initGPSHelper():
 
         """
@@ -384,6 +386,19 @@ def app(metaData=None):
 
             for model_no in range(len(gps.models)):
                 disp_model = gps.models[model_no]
+
+                uploaded_file = st.file_uploader("Weekly Sales Data", type = ["json"])
+
+                if uploaded_file is not None:
+
+
+                    # To convert to a string based IO:
+                    stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
+
+                    json_obj = json.load(stringio)
+
+                    with open("example/jsonData/GPS/GPS.json", "w") as outfile:
+                        json.dump(json_obj, outfile)
 
                 if model_no == 0 :
 
