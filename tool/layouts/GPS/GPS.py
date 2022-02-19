@@ -387,7 +387,7 @@ def app(metaData=None):
             for model_no in range(len(gps.models)):
                 disp_model = gps.models[model_no]
 
-                uploaded_file = st.file_uploader("Weekly Sales Data", type = ["json"])
+                uploaded_file = st.file_uploader("Upload GPS Json", type = ["json"])
 
                 if uploaded_file is not None:
 
